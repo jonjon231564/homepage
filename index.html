@@ -5,72 +5,189 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
         <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap"
+            rel="stylesheet"
+        />
     </head>
     <body>
+        
         <nav>
-            <img id="logo" src="images/logo.jpg" alt="" />
-            <button id="hamburger">
-                <img src="images/menu.png" alt="" />
-                <div id="dropdown">
-                    <button class="nav-button">About</button>
-                    <button class="nav-button">Portfolio</button>
-                    <button class="nav-button">Contact</button>
+            <div id="nav-icons">
+                <div id="light-dark-toggle">
+                    <button id="night">Night</button>
+                    <button id="day">Day</button>
                 </div>
-            </button>
+                <button id="menu-button">
+                    <img id="menu" src="images/menu.png" alt="" />
+                </button>
+                <div id="dropdown">
+                    <a href="#about">About</a>
+                    <a href="#work">Portfolio</a>
+                    <a href="#footer-links">Contact</a>
+                </div>
+            </div>
+            
         </nav>
         <main>
             <header>Jonathan's Portfolio Website</header>
             <section id="about">
                 <img id="about-image" src="images/500x500.svg" alt="" />
-                <div id="about-title-&-links">
-                    <h2>Hi, Im Jonathan!</h2>
-                    <div id="about-links">
-                        <a href=""><img src="images/x.png" alt="" /></a>
-                        <a href=""><img src="images/git-hub.jpeg" alt="" /></a>
-                        <a href=""><img src="images/linked-in.png" alt="" /></a>
+                <div id="about-title-links-and-info">
+                    <div id="about-title-and-links">
+                        <h2>Hi, Im Jonathan!</h2>
+                        <div id="about-links">
+                            <a href=""><img src="images/x.png" alt="" /></a>
+                            <a href=""
+                                ><img src="images/github.png" alt=""
+                            /></a>
+                            <a href=""
+                                ><img src="images/linked-in.png" alt=""
+                            /></a>
+                        </div>
                     </div>
+                    <p id="about-info">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Facilis voluptates fugit error rem ratione
+                        consectetur quod totam laudantium nemo dignissimos
+                        similique asperiores amet, nam delectus suscipit
+                        sapiente quae quos animi!
+                    </p>
                 </div>
-                <p id="about-info">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Facilis voluptates fugit error rem ratione consectetur quod
-                    totam laudantium nemo dignissimos similique asperiores amet,
-                    nam delectus suscipit sapiente quae quos animi!
-                </p>
             </section>
             <section id="work">
-                <h3>Projects</h3>
-                <button id="backward-button">
-                    <img src="arrow.png" alt="" />
-                </button>
+                <h3>Projects:</h3>
                 <div id="carousel">
-                    <div class="card">
+                    <button id="backward-button">
+                        <img class="arrow" src="/images/arrow.png" alt="" />
+                    </button>
+
+                    <div id="card1" class="card">
                         <img src="/images/250x175.svg" alt="" />
-                        <div class="card-title-&-links">
-                            <h6>Card Title</h6>
-                            <a href=""
-                                ><img src="images/git-hub.jpeg" alt=""
-                            /></a>
+                        <div class="card-title-and-links">
+                            <h6>Card Title 1</h6>
+                            <a href=""><img id="github-logo" src="images/github.png" alt=""/></a>
                         </div>
                         <p class="card-info">
                             Some quick example text to build on the card title
                             and make up the bulk of the card's content.
                         </p>
                     </div>
+
+                    <div class="card">
+                        <img src="/images/250x175.svg" alt="" />
+                        <div class="card-title-and-links">
+                            <h6>Card Title 2</h6>
+                            <a href=""><img id="github-logo" src="images/github.png" alt=""/></a>
+                        </div>
+                        <p class="card-info">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <img src="/images/250x175.svg" alt="" />
+                        <div class="card-title-and-links">
+                            <h6>Card Title 3</h6>
+                            <a href=""><img id="github-logo" src="images/github.png" alt=""/></a>
+                        </div>
+                        <p class="card-info">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <img src="/images/250x175.svg" alt="" />
+                        <div class="card-title-and-links">
+                            <h6>Card Title 4</h6>
+                            <a href=""><img id="github-logo" src="images/github.png" alt=""/></a>
+                        </div>
+                        <p class="card-info">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <img src="/images/250x175.svg" alt="" />
+                        <div class="card-title-and-links">
+                            <h6>Card Title 5</h6>
+                            <a href=""><img id="github-logo" src="images/github.png" alt=""/></a>
+                        </div>
+                        <p class="card-info">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <img src="/images/250x175.svg" alt="" />
+                        <div class="card-title-and-links">
+                            <h6>Card Title 6</h6>
+                            <a href=""><img id="github-logo" src="images/github.png" alt=""/></a>
+                        </div>
+                        <p class="card-info">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <img src="/images/250x175.svg" alt="" />
+                        <div class="card-title-and-links">
+                            <h6>Card Title 7</h6>
+                            <a href=""><img id="github-logo" src="images/github.png" alt=""/></a>
+                        </div>
+                        <p class="card-info">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <img src="/images/250x175.svg" alt="" />
+                        <div class="card-title-and-links">
+                            <h6>Card Title 8</h6>
+                            <a href=""><img id="github-logo" src="images/github.png" alt=""/></a>
+                        </div>
+                        <p class="card-info">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                        </p>
+                    </div>
+
+                    <button id="forward-button">
+                        <img class="arrow" src="/images/arrow.png" alt="" />
+                    </button>
                 </div>
-                <button id="forward-button">
-                    <img src="/images/arrow.png" alt="" />
-                </button>
             </section>
+            <svg id="moon" width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <path d="M 100,20 A 80,80 0 1,1 20,100 60,60 0 1,0 100,20 Z" fill="grey"/>
+              </svg>
+            <svg id="sun" width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="100" cy="100" r="40" fill="yellow" stroke="orange" stroke-width="5"/>
+                <line x1="100" y1="10" x2="100" y2="40" stroke="orange" stroke-width="5"/>
+                <line x1="100" y1="160" x2="100" y2="190" stroke="orange" stroke-width="5"/>
+                <line x1="10" y1="100" x2="40" y2="100" stroke="orange" stroke-width="5"/>
+                <line x1="160" y1="100" x2="190" y2="100" stroke="orange" stroke-width="5"/>
+                <line x1="30" y1="30" x2="50" y2="50" stroke="orange" stroke-width="5"/>
+                <line x1="150" y1="150" x2="170" y2="170" stroke="orange" stroke-width="5"/>
+                <line x1="30" y1="170" x2="50" y2="150" stroke="orange" stroke-width="5"/>
+                <line x1="150" y1="50" x2="170" y2="30" stroke="orange" stroke-width="5"/>
+              </svg>
         </main>
         <footer>
-            <h2>Contact Me</h2>
             <form
                 class="contact-form"
                 action="mailto:your-email@example.com"
                 method="post"
                 enctype="text/plain"
             >
-                <h2>Contact Me</h2>
+                <h2>Contact Me:</h2>
                 <div class="form-group">
                     <label for="name">Name</label>
                     <input type="text" id="name" name="name" required />
@@ -91,7 +208,7 @@
             </form>
             <div id="footer-links">
                 <a href=""><img src="images/x.png" alt="" /></a>
-                <a href=""><img src="images/git-hub.jpeg" alt="" /></a>
+                <a href=""><img src="images/github.png" alt="" /></a>
                 <a href=""><img src="images/linked-in.png" alt="" /></a>
             </div>
         </footer>

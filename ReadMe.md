@@ -1,4 +1,15 @@
-I want my website to have an about me section, a work section, a footer section with a contact me in it, and a header that goes to the different sections.
+Understanding @media Queries
+@media queries are a cornerstone of responsive web design. They allow developers to apply different styles based on the characteristics of the device rendering the content, such as its width, height, or orientation. This ensures that the website looks good on all devices, from mobile phones to large desktops.
 
-As far as the javasript features I want a dark mode and a carousel for the work if it is in a phone or a tablet so pretty much anythig under 1000 pixels
 
+
+Common Conditions
+min-width: Minimum width of the viewport.
+max-width: Maximum width of the viewport.
+orientation: Orientation of the device (landscape or portrait).
+Applying @media Queries
+In the project, @media queries were used to adjust the layout, font sizes, and visibility of elements based on the screen size.
+
+
+Understanding the transform Property
+The transform property in CSS allows you to apply 2D or 3D transformations to an element. This includes moving, rotating, scaling, and skewing elements. Transformations can be combined to create complex animations and effects.
